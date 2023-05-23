@@ -166,6 +166,8 @@ $key-width: 46px;
     min-height: 80vh;
     display: flex;
     align-items: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
   }
 
   .main {
@@ -179,8 +181,12 @@ $key-width: 46px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
-    margin: 25px 50px;
+    margin: 15px 50px;
     font-size: x-large;
+  }
+
+  #wrongLetters {
+    font-size: 12px;
   }
 
   .main2 {
@@ -200,10 +206,12 @@ $key-width: 46px;
 
   .myButton {
     margin-bottom: 10px;
+    font-size: 12px;
   }
 
   .desc {
     font-size: 10px;
+    margin-bottom: 0px;
   }
 
   .forca {
