@@ -193,7 +193,7 @@ $key-width: 46px;
   }
 
   .logo {
-    width: 100px;
+    width: 90px;
     margin-bottom: 10px;
     margin-top: 20px;
   }
@@ -203,11 +203,15 @@ $key-width: 46px;
   }
 
   .desc {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .forca {
     width: 80px;
+  }
+
+  h1 {
+    font-size: 18px;
   }
 
   .keys {
