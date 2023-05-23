@@ -48,7 +48,7 @@ function updateImg() {
   ];
   let progress = document.getElementById("progress");
   progress.innerHTML = `
-  <img src=${progressImgs[wrongAnswers]} alt="">
+  <img class="forca" src=${progressImgs[wrongAnswers]} alt="">
   `;
 }
 
