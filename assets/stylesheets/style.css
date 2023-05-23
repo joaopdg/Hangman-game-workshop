@@ -161,6 +161,13 @@ $key-width: 46px;
 }
 
 @media only screen and (max-width: 768px) {
+  body {
+    min-width: 100vw;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+  }
+
   .main {
     min-width: 80vw;
     min-height: 40vh;
@@ -198,10 +205,8 @@ $key-width: 46px;
     width: 90vw;
     display: flex;
     justify-content: center;
-
   }
   .key__button {
-
     box-sizing: border-box;
     line-height: 30px;
     font-size: 14px;
