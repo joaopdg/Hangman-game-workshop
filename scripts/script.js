@@ -38,13 +38,13 @@ function printGameBoard() {
 
 function updateImg() {
   let progressImgs = [
-    "../images/1.jpg",
-    "../images/2.jpg",
-    "../images/3.jpg",
-    "../images/4.jpg",
-    "../images/5.jpg",
-    "../images/6.jpg",
-    "../images/7.jpg",
+    "../assets/images/1.jpg",
+    "../assets/images/2.jpg",
+    "../assets/images/3.jpg",
+    "../assets/images/4.jpg",
+    "../assets/images/5.jpg",
+    "../assets/images/6.jpg",
+    "../assets/images/7.jpg",
   ];
   let progress = document.getElementById("progress");
   progress.innerHTML = `
