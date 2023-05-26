@@ -1,0 +1,64 @@
+/* General styling for the whole page */
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Helvetica";
+  font-size: 20px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+/* White box with the game inside */
+.main {
+  min-width: 50vw;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: space-evenly;
+  justify-content: space-evenly;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
+  margin: 25px 50px;
+  font-size: x-large;
+}
+
+/* Ironhack logo image resize */
+img {
+  width: 200px;
+}
+
+/* Background animation */
+.page::before {
+  content: "";
+  position: fixed;
+  width: 300%;
+  height: 100%;
+  top: 45%;
+  left: 50%;
+  background-color: #2ec4ff;
+  background-color: #2ec4ff;
+  border-radius: 50%;
+  transform: translateX(-50%) skew(0, -10deg);
+  animation: wave 7s ease-in-out infinite alternate;
+  -webkit-animation: wave 7s ease-in-out infinite alternate;
+  z-index: -1;
+}
+
+@keyframes wave {
+  from {
+    transform: translateX(-50%) skew(0, -10deg);
+  }
+  to {
+    transform: translateX(-30%) skew(10deg, 0);
+    -webkit-transform: translateX(-30%) skew(10deg, 0);
+    -moz-transform: translateX(-30%) skew(10deg, 0);
+    -ms-transform: translateX(-30%) skew(10deg, 0);
+    -o-transform: translateX(-30%) skew(10deg, 0);
+  }
+}
